@@ -106,16 +106,10 @@ Created by Akif Islam
     message = f"Subject: {subject}\n\n{body}"
 
     #To Akif (MySelf)
+    
     server.sendmail(
         'iamakifislam@gmail.com',
         'iamakifislam@gmail.com',
-        message
-    )
-
-
-    server.sendmail(
-        'iamakifislam@gmail.com',
-        'faruqe.cse@gmail.com',
         message
     )
 
